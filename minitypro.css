@@ -88,21 +88,16 @@ input {
 	margin-bottom: 1em;
 }
 .box.info {
-	background: #dcedff;
 	background: #C3E0FF;
 }
 .box.success {
-	background: #dcffe3;
 	background: #C3F1AF;
 }
 .box.warning {
-	background: #fffddc;
-	background: #FCF8A3;/*#FEF99C*/
 	background: #FFF991;
 }
 .box.error,
 .box.danger {
-	background: #ffdfdc;
 	background: #FECCC8;
 }
 .box p:last-child {
