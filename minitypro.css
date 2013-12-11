@@ -33,7 +33,7 @@ h1 {
 	font-size: 250%;
 }
 /* forms */
-textarea, input {
+textarea, input, select {
 	display: block;
 	margin-bottom: 1em;
 	padding: 1em;
@@ -47,7 +47,7 @@ textarea {
 	-moz-resize: vertical;
 	resize: vertical;
 }
-input {
+input, select {
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;
 }
