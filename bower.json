@@ -19,6 +19,8 @@
     "**/*.md",
     "**/*.txt",
     "**/*.texy",
+    "bin",
+    "examples",
     "node_modules",
     "bower_components",
     "test",
