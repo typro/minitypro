@@ -1,0 +1,50 @@
+
+body {
+	margin: 0;
+	padding: @page-padding; // 0
+	font: inherit;
+	font-size: @page-font-size;
+	vertical-align: baseline;
+	line-height: @page-line-height;
+	text-align: left;
+	font-family: 'Arial CE', 'Helvetica CE', Arial, Verdana, Helvetica, sans-serif;
+	color: @page-color;
+}
+
+// headings
+h1, h2, h3, h4, h5, h6 {
+	font-weight: bold;
+	margin-bottom: @headings-margin-bottom;
+	line-height: @headings-line-height;
+	color: @headings-color;
+}
+
+h2:first-child,
+h3:first-child,
+h4:first-child,
+h5:first-child,
+h6:first-child {
+	margin-top: 0;
+}
+
+h1 {
+	margin-top: 0;
+	font-size: @headings-1-font-size;
+}
+
+// elements
+p {
+	margin-top: 0;
+}
+
+a:link {
+	color: @link-color;
+}
+
+a:visited {
+	color: @link-visited-color;
+}
+
+a:hover {
+	color: @link-hover-color;
+}

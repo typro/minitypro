@@ -5,21 +5,25 @@
  */
 body {
   margin: 0;
-  padding: 1em; /* 0 */
-  font-size: 100%;
+  padding: 1em;
   font: inherit;
+  font-size: 100%;
   vertical-align: baseline;
   line-height: 1.6;
   text-align: left;
   font-family: 'Arial CE', 'Helvetica CE', Arial, Verdana, Helvetica, sans-serif;
-  color: #222;
+  color: #222222;
 }
-/* headings */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: bold;
   margin-bottom: 0.15em;
   line-height: 1.4;
-  color: #444;
+  color: #444444;
 }
 h2:first-child,
 h3:first-child,
@@ -32,11 +36,21 @@ h1 {
   margin-top: 0;
   font-size: 250%;
 }
-.form,
-.table {
+p {
+  margin-top: 0;
+}
+a:link {
+  color: #0044aa;
+}
+a:visited {
+  color: #00255c;
+}
+a:hover {
+  color: #dd2222;
+}
+.form {
   margin: 0 0 1em;
 }
-/* forms */
 .form textarea,
 .form input,
 .form select {
@@ -58,16 +72,15 @@ h1 {
   padding-top: 0.5em;
   padding-bottom: 0.5em;
 }
-/* tables */
 .table {
+  margin: 0 0 1em;
   width: 100%;
-  /*background: red;*/
   border-spacing: 0;
-  border: 1px solid silver;
+  border: 1px solid #c0c0c0;
   border-width: 0 1px 1px 0;
 }
 .table tr {
-  background: #fff;
+  background-color: #ffffff;
 }
 .table tr:nth-child(odd) {
   background-color: #f4f4f4;
@@ -76,17 +89,16 @@ h1 {
 .table td {
   text-align: left;
   padding: 0.4em 1em;
-  border: 1px solid silver;
+  border: 1px solid #c0c0c0;
   border-width: 1px 0 0 1px;
 }
 .table th {
-  background: #eee;
+  background-color: #eeeeee;
 }
 .table thead th,
 .table tfoot th {
   text-align: center;
 }
-/* grid */
 .row {
   overflow: hidden;
 }
@@ -122,38 +134,24 @@ h1 {
 .column-3p4 {
   width: 75%;
 }
-/* box */
 .box {
   background: #eee;
   padding: 1em;
   margin-bottom: 1em;
 }
-.box.info {
-  background: #C3E0FF;
-}
-.box.success {
-  background: #C3F1AF;
-}
-.box.warning {
-  background: #FFF991;
-}
-.box.error,
-.box.danger {
-  background: #FECCC8;
-}
 .box p:last-child {
   margin-bottom: 0;
 }
-/* elements */
-p {
-  margin-top: 0;
+.box.info {
+  background-color: #c3e0ff;
 }
-a:link {
-  color: #0044aa;
+.box.success {
+  background-color: #c3f1af;
 }
-a:visited {
-  color: #00255c;
+.box.warning {
+  background-color: #fff991;
 }
-a:hover {
-  color: #d22;
+.box.error,
+.box.danger {
+  background-color: #feccc8;
 }

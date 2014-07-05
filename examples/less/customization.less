@@ -1,0 +1,44 @@
+
+@import '../../less/minitypro.less';
+
+@page-padding: 0;
+@page-font-size: 110%;
+@page-line-height: 1;
+@page-color: #000;
+// @box-info-background-color: navy;
+
+@headings-margin-bottom: 1em;
+
+#content {
+	.grid-row();
+
+	form {
+		.form();
+	}
+
+	table {
+		.table();
+	}
+}
+
+.left,
+.middle {
+	.grid-column();
+	.grid-column-1p4();
+}
+
+.right {
+	.grid-column();
+	.grid-column-1p2();
+	// background: #f0f0f0;
+}
+
+#message {
+	.box();
+	.box-error();
+}
+
+.info-box {
+	.box();
+	.box-info();
+}
