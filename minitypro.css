@@ -54,6 +54,34 @@ h1 {
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;
 }
+/* tables */
+.table {
+	width: 100%;
+	/*background: red;*/
+	border-spacing: 0;
+	border: 1px solid silver;
+	border-width: 0 1px 1px 0;
+}
+.table tr {
+	background: #fff;
+}
+.table tr:nth-child(odd) {
+	background-color: #f4f4f4;
+}
+.table th,
+.table td {
+	text-align: left;
+	padding: 0.4em 1em;
+	border: 1px solid silver;
+	border-width: 1px 0 0 1px;
+}
+.table th {
+	background: #eee;
+}
+.table thead th,
+.table tfoot th {
+	text-align: center;
+}
 /* grid */
 .row {
 	overflow: hidden;
