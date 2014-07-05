@@ -1,0 +1,27 @@
+{
+  "name": "minitypro",
+  "authors": [
+    "Jan Pecha <janpecha@email.cz>"
+  ],
+  "description": "Ultra minimalist CSS/LESS framework",
+  "main": "css/minitypro.css",
+  "keywords": [
+    "css",
+    "less",
+    "grid",
+    "framework"
+  ],
+  "license": "BSD-3",
+  "homepage": "http://typro.iunas.cz/minitypro/",
+  "ignore": [
+    "**/.*",
+    "**/*.html",
+    "**/*.md",
+    "**/*.txt",
+    "**/*.texy",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
