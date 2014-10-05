@@ -45,7 +45,8 @@ a:link {
 a:visited {
   color: #00255c;
 }
-a:hover {
+a:hover,
+a:focus {
   color: #dd2222;
 }
 .form {
